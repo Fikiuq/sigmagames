@@ -88,14 +88,16 @@ header li {
 }
 
 .game-card img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    max-height: 120px; /* Max hoogte ingesteld voor consistentie */
     border-radius: 5px;
+    margin-bottom: 10px; /* Ruimte onder afbeelding */
 }
 
 .game-card h3 {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 18px; /* Iets kleiner voor een strakker uiterlijk */
 }
 
 .game-card button {
