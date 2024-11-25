@@ -1,1 +1,1 @@
-# simgagames
+# Simga
