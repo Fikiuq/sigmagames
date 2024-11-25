@@ -12,10 +12,9 @@
         <div class="logo">SigmaGames</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Over ons</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="overons.html">Over ons</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -24,24 +23,24 @@
     <section class="hero">
         <h1>Welkom bij SigmaGames!</h1>
         <p>Speel de leukste games gratis online</p>
-        <button class="play-now">Nu spelen</button>
+        <button class="play-now" onclick="location.href='#games'">Nu spelen</button>
     </section>
 
     <!-- Games Section -->
-    <section class="games">
+    <section id="games" class="games">
         <h2>Populaire Games</h2>
         <div class="game-grid">
             <!-- Game 1 -->
             <div class="game-card">
                 <img src="pacman.png" alt="Pacman">
                 <h3>Pacman</h3>
-                <button>Speel Nu</button>
+                <button onclick="location.href='pacman.html'">Speel Nu</button>
             </div>
             <!-- Game 2 -->
             <div class="game-card">
                 <img src="snake.png" alt="Snake">
                 <h3>Snake</h3>
-                <button>Speel Nu</button>
+                <button onclick="location.href='snake.html'">Speel Nu</button>
             </div>
         </div>
     </section>
@@ -49,11 +48,6 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 SigmaGames. Alle rechten voorbehouden.</p>
-        <div class="social-media">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-        </div>
     </footer>
 </body>
 </html>
